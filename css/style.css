@@ -1,3 +1,10 @@
-body {
-	background: red;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--ff-primary: ;
+	--ff-secondary: ;
 }
