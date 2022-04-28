@@ -4,7 +4,8 @@
 	box-sizing: border-box;
 }
 
-:root {
+:root
+{
 	
 	/* Custom Proporties */
 	/* ff = font family */ 
@@ -27,8 +28,10 @@
 	--fs-body: 1rem;
 }
 
-@media (min-width: 800px) {
-	:root {
+@media (min-width: 800px)
+{
+	:root
+	{
 		--fs-h1: 4.5rem;
 		--fs-h2: 3.75rem;
 		--fs-h3: 1.5rem;
@@ -38,7 +41,8 @@
 
 /* General Styles */
 
-body{
+body
+{
 	background: var(--clr-light);
 	color: var(--clr-dark);
 	margin: 0;
@@ -47,18 +51,21 @@ body{
 	line-height: 1.6;
 }
 
-img {
+img
+{
 	display: block;
 	max-width: 100%;
 }
 
-strong {
+strong
+{
 	font-weight: var(--fw-bold);
 }
 
 /* Typography */
 
-h1,h2,h3 {
+h1,h2,h3
+{
 	line-height: 1.1;
 	margin: 0;
 }
@@ -68,25 +75,30 @@ h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
 
-.section__title {
+.section__title
+{
 	margin-bottom: .25em;
 }
 
-.section__title--intro {
+.section__title--intro
+{
 	font-weight: var(--fw-reg);
 }
 
-.section__title--intro strong {
+.section__title--intro strong
+{
 	display: block;
 }
 
-.section__subtitle {
+.section__subtitle
+{
 	margin: 0;
 	font-size: var(--fs-h3);
 }
 
 .section__subtitle--intro,
-.section__subtitle--about {
+.section__subtitle--about
+{
 	background: var(--clr-accent);
 	font-family: var(--ff-secondary);
 }
